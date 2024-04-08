@@ -31,9 +31,9 @@ let encode = encode_base64("123456789");
 println!("{}", encode);
 
 // Decode
-let decoded = decode_base64("MTIzNDU2Nzg5");
-let decoded_string = String::from_utf8(decoded).unwrap();
-println!("{}", decoded_string);
+let decode = decode_base64("MTIzNDU2Nzg5");
+let decode_string = String::from_utf8(decode).unwrap();
+println!("{}", decode_string);
 ```
 
 To encrypt a value to md5

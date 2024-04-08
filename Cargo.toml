@@ -1,7 +1,13 @@
 [package]
 name = "cryptotools"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
+authors = ["João Lucas <joaolucasfp2001@gmail.com>"]
+license = "MIT"
+description = "cryptotools is a cryptography library"
+readme = "README.md"
+repository = "https://github.com/heroesofcode/cryptotools"
+exclude = [".github/**"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
