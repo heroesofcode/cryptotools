@@ -7,4 +7,3 @@ edition = "2021"
 
 [dependencies]
 crypto = "0.5.1"
-base64 = "0.22.0"
