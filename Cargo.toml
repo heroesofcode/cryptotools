@@ -1,6 +1,6 @@
 [package]
 name = "cryptotools"
-version = "1.0.0"
+version = "0.1.0"
 edition = "2021"
 authors = ["João Lucas <joaolucasfp2001@gmail.com>"]
 license = "MIT"
