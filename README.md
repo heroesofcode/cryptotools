@@ -1,6 +1,7 @@
 # cryptotools
 
 [![CI](https://github.com/heroesofcode/cryptotools/actions/workflows/CI.yml/badge.svg)](https://github.com/heroesofcode/cryptotools/actions/workflows/CI.yml)
+[![Crates.io](https://img.shields.io/crates/v/cryptotools)](https://crates.io/crates/cryptotools)
 [![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/heroesofcode/cryptotools/blob/main/LICENSE)
 
 cryptotools is a cryptography library, with it you can:
