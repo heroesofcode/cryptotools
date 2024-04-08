@@ -1,3 +1,7 @@
+/// Convert the value of the "data" parameter to base64 decode
+/// Use: 
+/// let decoded = decode_base64("MTIzNDU2Nzg5");
+/// let decoded_string = String::from_utf8(decoded).unwrap();
 pub fn decode_base64(data: &str) -> Vec<u8> {
     let base64_chars: Vec<char> =
         "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".chars().collect();
