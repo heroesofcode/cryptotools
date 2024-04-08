@@ -17,7 +17,7 @@ pub fn encode_base64(data: &str) -> String {
         append_base64_chars(&mut result, &base64_chars, &base64_indexes, padding_count);
     }
 
-    result
+    return result;
 }
 
 fn count_number_bytes(mut index: usize, data_bytes: &[u8], bytes: &mut [u8; 3], padding_count: &mut usize) -> usize {
@@ -30,7 +30,7 @@ fn count_number_bytes(mut index: usize, data_bytes: &[u8], bytes: &mut [u8; 3], 
         }
     }
     
-    index
+    return index;
 }
 
 fn calculate_base64_indexes(bytes: &[u8; 3], base64_indexes: &mut Vec<u8>) {
