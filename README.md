@@ -16,7 +16,7 @@ In the file `Cargo.toml`
 
 ```toml
 [dependencies]
-cryptotools = "1.0.0"
+cryptotools = "0.1.0"
 ```
 
 ## Using
