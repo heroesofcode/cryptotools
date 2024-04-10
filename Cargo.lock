@@ -10,6 +10,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "cryptotools"
+version = "0.1.0"
+source = "git+https://github.com/heroesofcode/cryptotools#f47b977c9b32dc184f16de8b5d3541e187f3d994"
+dependencies = [
+ "md5",
+]
+
+[[package]]
+name = "example"
+version = "0.1.0"
+dependencies = [
+ "cryptotools 0.1.0 (git+https://github.com/heroesofcode/cryptotools)",
+]
+
+[[package]]
 name = "md5"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
