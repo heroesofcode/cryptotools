@@ -17,6 +17,11 @@ jobs:
     - name: Run tests
       run: cargo test
 
+    - name: Run examples
+      run: cd examples/example
+           |
+           cargo run
+
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v4.3.0
       with:
