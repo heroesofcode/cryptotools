@@ -4,7 +4,6 @@ workspace = { members = ["examples/example"] }
 name = "cryptotools"
 version = "0.1.0"
 edition = "2021"
-rust-version = "1.77.2"
 authors = ["João Lucas <joaolucasfp2001@gmail.com>"]
 license = "MIT"
 description = "cryptotools is a cryptography library"
