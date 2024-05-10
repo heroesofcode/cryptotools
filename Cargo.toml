@@ -10,6 +10,7 @@ description = "cryptotools is a cryptography library"
 readme = "README.md"
 repository = "https://github.com/heroesofcode/cryptotools"
 exclude = [".github/**"]
+msrv = "1.56.1"
 
 [dependencies]
 md5 = "0.7.0"
