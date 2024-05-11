@@ -4,6 +4,7 @@
 [![Crates.io](https://img.shields.io/crates/v/cryptotools)](https://crates.io/crates/cryptotools)
 ![Msrv](https://img.shields.io/badge/msrv-1.56.1-blue.svg?logo=rust&logoColor=orange)
 [![Downloads](https://img.shields.io/crates/d/cryptotools.svg?logo=rust&logoColor=orange)](https://crates.io/crates/cryptotools)
+[![Docs](https://docs.rs/cryptotools/badge.svg)](https://docs.rs/cryptotools)
 [![License](https://img.shields.io/github/license/heroesofcode/cryptotools.svg)](https://github.com/heroesofcode/cryptotools/blob/main/LICENSE)
 
 cryptotools is a cryptography library, with it you can:
