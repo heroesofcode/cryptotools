@@ -4,7 +4,7 @@ use cryptotools::encrypt_md5::MD5;
 
 fn main() {
     // Encode
-    let encode = Base64Encode::enconde("123456789");
+    let encode = Base64Encode::encode("123456789");
     println!("{}", encode);
 
     // Decode
