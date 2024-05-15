@@ -1,7 +1,10 @@
-/// Function to convert string to md5
-/// use: let md5 = encrypt_md5("9999");
-pub fn encrypt_md5(data: &str) -> String {
-    let digest = md5::compute(data);
-    let digest_to_string = format!("{:02x?}", digest);
-    return digest_to_string
+pub struct MD5;
+
+impl MD5 {
+    /// Function to convert string to md5
+    pub fn encrypt_md5(value: &str) -> String {
+        let digest = md5::compute(value);
+        let digest_to_string = format!("{:02x?}", digest);
+        return digest_to_string
+    }
 }
