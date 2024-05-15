@@ -12,7 +12,7 @@ dependencies = [
 [[package]]
 name = "cryptotools"
 version = "0.1.0"
-source = "git+https://github.com/heroesofcode/cryptotools#f47b977c9b32dc184f16de8b5d3541e187f3d994"
+source = "git+https://github.com/heroesofcode/cryptotools#0dc5a1341f431bf82976b916a01027a2ef29e715"
 dependencies = [
  "md5",
 ]

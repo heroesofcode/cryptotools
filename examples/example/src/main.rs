@@ -1,18 +1,17 @@
-use cryptotools::encode_base64::encode_base64;
-use cryptotools::decode_base64::decode_base64;
-use cryptotools::encrypt_md5::encrypt_md5;
+use cryptotools::encode_base64::Base64Encode;
+use cryptotools::decode_base64::Base64Decode;
+use cryptotools::encrypt_md5::MD5;
 
 fn main() {
     // Encode
-    let encode = encode_base64("123456789");
+    let encode = Base64Encode::enconde("123456789");
     println!("{}", encode);
 
     // Decode
-    let decode = decode_base64("MTIzNDU2Nzg5");
-    let decode_string = String::from_utf8(decode).unwrap();
-    println!("{}", decode_string);
+    let decode = Base64Decode::decode("MTIzNDU2Nzg5");
+    println!("{}", decode);
 
     // md5
-    let md5 = encrypt_md5("9999");
+    let md5 = MD5::encrypt("9999");
     println!("{}", md5);
 }
