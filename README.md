@@ -19,7 +19,7 @@ In the file `Cargo.toml`
 
 ```toml
 [dependencies]
-cryptotools = "0.1.0"
+cryptotools = "0.2.0"
 ```
 
 ## Usage

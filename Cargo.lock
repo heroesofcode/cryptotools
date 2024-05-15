@@ -5,14 +5,14 @@ version = 3
 [[package]]
 name = "cryptotools"
 version = "0.1.0"
+source = "git+https://github.com/heroesofcode/cryptotools#9f2112078830faa3ebadd42f89a27e6e4fdefb8b"
 dependencies = [
  "md5",
 ]
 
 [[package]]
 name = "cryptotools"
-version = "0.1.0"
-source = "git+https://github.com/heroesofcode/cryptotools#9f2112078830faa3ebadd42f89a27e6e4fdefb8b"
+version = "0.2.0"
 dependencies = [
  "md5",
 ]
@@ -21,7 +21,7 @@ dependencies = [
 name = "example"
 version = "0.1.0"
 dependencies = [
- "cryptotools 0.1.0 (git+https://github.com/heroesofcode/cryptotools)",
+ "cryptotools 0.1.0",
 ]
 
 [[package]]
