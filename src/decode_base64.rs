@@ -1,6 +1,6 @@
-pub struct Base64;
+pub struct Base64Decode;
 
-impl Base64 {
+impl Base64Decode {
     /// Convert the value of the "value" parameter to base64 decode
     pub fn decode_base64(value: &str) -> String {
         let base64_chars: Vec<char> =

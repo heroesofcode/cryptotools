@@ -1,6 +1,6 @@
-pub struct Base64;
+pub struct Base64Encode;
 
-impl Base64 {
+impl Base64Encode {
     /// Convert the value of the "value" parameter to base64 encode
     /// Use: let encode = encode_base64("123456789");
     pub fn enconde_base64(value: &str) -> String {
