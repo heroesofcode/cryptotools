@@ -31,7 +31,7 @@ use cryptotools::encode_base64::Base64Encode;
 use cryptotools::decode_base64::Base64Decode;
 
 // Encode
-let encode = Base64Encode::enconde("123456789");
+let encode = Base64Encode::encode("123456789");
 println!("{}", encode);
 
 // Decode
