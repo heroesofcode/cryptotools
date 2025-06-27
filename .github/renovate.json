@@ -1,0 +1,24 @@
+{
+  "extends": ["config:recommended"],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "automerge": false
+    }
+  ],
+  "commitMessagePrefix": "chore(deps):",
+  "commitMessageAction": "update",
+  "commitMessageTopic": "{{depName}} to v{{newVersion}}",
+  "customManagers": [
+    {
+      "customType": "regex",
+      "depNameTemplate": "rust",
+      "packageNameTemplate": "rust-lang/rust",
+      "datasourceTemplate": "github-releases",
+      "fileMatch": ["(^|/)rust-toolchain\\.toml$"],
+      "matchStrings": [
+        "channel\\s*=\\s*\"(?<currentValue>\\d+\\.\\d+(\\.\\d+)?)\""
+      ]
+    }
+  ]
+}
