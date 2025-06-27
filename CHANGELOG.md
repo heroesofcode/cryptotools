@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version 0.3.0
+**2025-06-27**
+
+- Updated md5 to 0.8.0 (was 0.7.0)
+
 ## Version 0.2.0
 **2024-05-15**
 
