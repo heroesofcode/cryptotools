@@ -2,8 +2,6 @@
 
 [![CI](https://github.com/heroesofcode/cryptotools/actions/workflows/CI.yml/badge.svg)](https://github.com/heroesofcode/cryptotools/actions/workflows/CI.yml)
 [![Crates.io](https://img.shields.io/crates/v/cryptotools)](https://crates.io/crates/cryptotools)
-![Msrv](https://img.shields.io/badge/msrv-1.56.1-blue.svg?logo=rust&logoColor=orange)
-[![Downloads](https://img.shields.io/crates/d/cryptotools.svg?logo=rust&logoColor=orange)](https://crates.io/crates/cryptotools)
 [![Docs](https://docs.rs/cryptotools/badge.svg)](https://docs.rs/cryptotools)
 [![License](https://img.shields.io/github/license/heroesofcode/cryptotools.svg)](https://github.com/heroesofcode/cryptotools/blob/main/LICENSE)
 
@@ -47,10 +45,6 @@ use cryptotools::encrypt_md5::MD5;
 let md5 = MD5::encrypt("9999");
 println!("{}", md5);
 ```
-
-## Contributing
-
-To contribute, just fork this project and then open a pull request, feel free to contribute, bring ideas and raise any problem in the issue tab.
 
 ## License
 
