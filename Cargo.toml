@@ -3,14 +3,13 @@ workspace = { members = ["examples/example"] }
 [package]
 name = "cryptotools"
 version = "0.2.0"
-edition = "2021"
+edition = "2024"
 authors = ["João Lucas <joaolucasfp2001@gmail.com>"]
 license = "MIT"
 description = "cryptotools is a cryptography library"
 readme = "README.md"
 repository = "https://github.com/heroesofcode/cryptotools"
-exclude = [".github/**"]
-msrv = "1.56.1"
+exclude = [".github/**", "examples/*"]
 
 [dependencies]
-md5 = "0.7.0"
+md5 = "0.8.0"
