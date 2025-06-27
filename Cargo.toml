@@ -13,4 +13,4 @@ exclude = [".github/**"]
 msrv = "1.56.1"
 
 [dependencies]
-md5 = "0.7.0"
+md5 = "0.8.0"
