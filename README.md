@@ -5,15 +5,15 @@
 [![Docs](https://docs.rs/cryptotools/badge.svg)](https://docs.rs/cryptotools)
 [![License](https://img.shields.io/github/license/heroesofcode/cryptotools.svg)](https://github.com/heroesofcode/cryptotools/blob/main/LICENSE)
 
-cryptotools is a cryptography library, with it you can:
+cryptotools is a simple, easy-to-use library for cryptographic utilities in Rust. It currently provides the following:
 
-- [x] Encode to base64
-- [x] Decode the base64 value
-- [x] Encrypt to md5
+- [x] Base64 encoding
+- [x] Base64 decoding
+- [x] MD5 encryption (hashing)
 
 ## Installing
 
-In the file `Cargo.toml`
+cargo add cryptotools
 
 ```toml
 [dependencies]
@@ -22,28 +22,28 @@ cryptotools = "0.3.0"
 
 ## Usage
 
-In the first example, if you want to encode and decode base64
+### Base64 Encoding & Decoding
 
 ```rust
 use cryptotools::encode_base64::Base64Encode;
 use cryptotools::decode_base64::Base64Decode;
 
-// Encode
-let encode = Base64Encode::encode("123456789");
-println!("{}", encode);
+let input = "hello world";
+let encoded = Base64Encode::encode(input);
+println!("Base64 Encoded: {}", encoded);
 
-// Decode
-let decode = Base64Decode::decode("MTIzNDU2Nzg5");
-println!("{}", decode);
+let decoded = Base64Decode::decode(&encoded);
+println!("Base64 Decoded: {}", decoded);
 ```
 
-To encrypt a value to md5
+### MD5 Hashing
 
 ```rust
 use cryptotools::encrypt_md5::MD5;
 
-let md5 = MD5::encrypt("9999");
-println!("{}", md5);
+let input = "password123";
+let hash = MD5::encrypt(input);
+println!("MD5 Hash: {}", hash);
 ```
 
 ## License

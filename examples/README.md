@@ -1,6 +1,5 @@
 # Example
 
 ```sh
-cd example
-cargo run
+cargo run -p example
 ```
